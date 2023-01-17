@@ -23,6 +23,7 @@ class _CreateAvatarState extends State<CreateAvatar> {
   Widget build(BuildContext context) {
     double size = MediaQuery.of(context).size.width;
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: const Text("Create Avatar", style: AppText.appbarTagText,),
         centerTitle: true,
